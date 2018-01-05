@@ -1,0 +1,193 @@
+@relation 'Dataset 2013_x_modified'
+
+@attribute Country {Somalia,'Congo Democratic Republic',Sudan,'South Sudan',Chad,Yemen,Afghanistan,Haiti,'Central African Republic',Zimbabwe,Iraq,'Cote dIvoire',Pakistan,Guinea,'Guinea Bissau',Nigeria,Kenya,Niger,Ethiopia,Burundi,Syria,Uganda,Liberia,'North Korea',Eritrea,Myanmar,Cameroon,'Sri Lanka',Bangladesh,Nepal,Mauritania,Timor-Leste,'Sierra Leone',Egypt,'Burkina Faso','Congo Republic',Iran,Mali,Rwanda,Malawi,Cambodia,Togo,Angola,Uzbekistan,Zambia,Lebanon,'Equatorial Guinea','Kyrgyz Republic',Swaziland,Djibouti,'Solomon Islands',Tajikistan,'Papua New Guinea',Libya,Georgia,Comoros,Colombia,Laos,Mozambique,Philippines,Madagascar,Bhutan,Gambia,Senegal,Tanzania,China,Bolivia,Fiji,'Israel and West Bank',Guatemala,Lesotho,Nicaragua,Algeria,Ecuador,Honduras,Azerbaijan,Indonesia,Benin,India,Russia,Belarus,Turkmenistan,'Bosnia and Herzegovina',Moldova,Tunisia,Turkey,Jordan,Maldives,Venezuela,Thailand,'Sao Tome and Principe',Serbia,Morocco,'Cape Verde','Dominican Republic','El Salvador',Mexico,Vietnam,Gabon,Micronesia,Cuba,'Saudi Arabia',Peru,Paraguay,Armenia,Suriname,Guyana,Namibia,Kazakhstan,Ghana,Samoa,Macedonia,'South Africa',Belize,Cyprus,Malaysia,Ukraine,Jamaica,Albania,Grenada,Botswana,Seychelles,'Brunei Darussalam',Bahrain,'Trinidad and Tobago',Brazil,Kuwait,'Antigua and Barbuda',Mongolia,Romania,Panama,Bulgaria,Bahamas,Montenegro,Croatia,Oman,Barbados,Greece,'Costa Rica',Latvia,Hungary,'United Arab Emirates',Qatar,Argentina,Estonia,'Slovak Republic',Italy,Mauritius,Spain,Lithuania,Malta,Chile,Poland,'Czech Republic',Uruguay,Japan,'South Korea',Singapore,'United States','United Kingdom',France,Portugal,Slovenia,Belgium,Germany,Austria,Netherlands,Canada,Australia,Ireland,Iceland,Luxembourg,'New Zealand',Denmark,Norway,Switzerland,Sweden,Finland}
+@attribute C1 numeric
+@attribute C3 numeric
+@attribute E2 numeric
+@attribute P1 numeric
+@attribute P3 numeric
+@attribute S2 numeric
+@attribute VA numeric
+@attribute RL numeric
+@attribute CC numeric
+@attribute TR {Alert,Warning,Stable,Sustainable}
+
+@data
+Somalia,9.7,9.3,8.4,9.5,10,10,-2.17477,-2.40425,-1.58071,Alert
+'Congo Democratic Republic',10,9.4,8.8,9.6,9.8,10,-0.087348,-0.088084,-0.05873,Alert
+Sudan,9.8,10,8.5,9.6,9.3,10,-1.7759,-1.27108,-1.46897,Alert
+'South Sudan',9.6,10,8.9,9.1,9.3,10,-1.44238,-1.51201,-1.38236,Alert
+Chad,9.4,8.8,8.9,9.7,9.8,9.7,-1.37471,-1.38249,-1.35127,Alert
+Yemen,9.8,9,8.1,9.3,8.7,9.2,-0.087348,-0.088084,-0.05873,Alert
+Afghanistan,9.9,9.2,7.8,9.4,8.4,9.2,-1.24007,-1.59731,-1.43676,Alert
+Haiti,7.9,7,9.1,8.8,7.6,8.6,-0.74945,-1.29426,-1.13048,Alert
+'Central African Republic',9.7,8.5,9.2,9,8.6,9.8,-1.47469,-1.79308,-1.09076,Alert
+Zimbabwe,8.4,8.4,8.6,9.2,8.9,8.7,-1.38622,-1.57917,-1.40489,Alert
+Iraq,10,10,8.4,8.6,8.6,8.8,-1.05719,-1.44964,-1.27774,Alert
+'Cote dIvoire',9.1,9,7.8,9.3,8.6,9.3,-0.087348,-0.088084,-0.05873,Alert
+Pakistan,9.8,9.7,7.9,8.4,8.7,9.1,-0.79948,-0.85682,-0.95636,Alert
+Guinea,9.1,7.6,8.2,9.8,8.4,8.2,-1.02231,-1.3754,-1.04008,Alert
+'Guinea Bissau',9.5,5.7,8.1,9.7,7.6,7.8,-0.087348,-0.088084,-0.05873,Alert
+Nigeria,9.5,9.8,9.2,8.8,8.6,6.6,-0.69303,-1.11368,-1.22126,Alert
+Kenya,8.1,9,8.3,8.3,7.1,8.7,-0.21226,-0.71112,-1.03127,Alert
+Niger,8.3,7.8,7.9,8.1,7.6,7.9,-0.30629,-0.6596,-0.61107,Alert
+Ethiopia,8.4,8.6,7.6,7.3,8.7,8.7,-1.31303,-0.64741,-0.49495,Alert
+Burundi,7.7,8.1,7.6,8.4,7.9,8.8,-0.95305,-1.07,-1.40968,Alert
+Syria,9.8,9.3,7.2,9.6,9.5,9.5,-0.087348,-0.088084,-0.05873,Alert
+Uganda,8.2,8,7.8,8.1,7.9,8.4,-0.55198,-0.34128,-1.04266,Alert
+Liberia,7.1,6.5,8,6.6,6.4,9.2,-0.38732,-0.87903,-0.71057,Warning
+'North Korea',8.4,6.6,8.3,9.8,9.7,5,-0.087348,-0.088084,-0.05873,Warning
+Eritrea,7.5,6.1,6.9,8.7,9.1,7.4,-2.19642,-1.40749,-0.90179,Warning
+Myanmar,7.8,9,8.4,9,8.3,8.5,-1.46163,-1.23382,-1.0001,Warning
+Cameroon,8,7.8,7.8,8.5,8.1,7.3,-1.0369,-1.05095,-1.20525,Warning
+'Sri Lanka',8.5,9.5,7.8,8.2,9,8.4,-0.59418,-0.27696,-0.21487,Warning
+Bangladesh,7.7,8.6,7.8,8.3,7.3,7.3,-0.40539,-0.86682,-0.88707,Warning
+Nepal,7.6,9,8.1,8.1,7.9,7.7,-0.52857,-0.71814,-0.68696,Warning
+Mauritania,7.8,7.2,6.5,7.7,7.4,8.3,-0.95942,-0.99845,-0.83364,Warning
+Timor-Leste,8.3,6.8,6.7,8,6,7.4,0.09112,-1.20846,-0.68388,Warning
+'Sierra Leone',5.4,5.9,8.5,7.3,6.1,8.1,-0.34259,-0.85903,-0.90584,Warning
+Egypt,7.3,8.5,7.1,8.9,9.6,6.5,-0.087348,-0.088084,-0.05873,Warning
+'Burkina Faso',7.2,5.3,8.4,7.7,6.8,7.4,-0.25543,-0.53045,-0.52309,Warning
+'Congo Republic',6.7,6,8.2,8.7,7.5,8,-0.087348,-0.088084,-0.05873,Warning
+Iran,8.6,8.8,6.7,8.9,9.4,7.3,-0.087348,-0.088084,-0.05873,Warning
+Mali,8.1,7.6,6.8,6,6.5,7.6,-0.28451,-0.74912,-0.78611,Warning
+Rwanda,5.5,8.2,7.7,6.5,7.7,7.9,-1.2111,-0.15472,0.62796,Warning
+Malawi,5,5.7,8,7.5,6.8,6.5,-0.17875,-0.16228,-0.6074,Warning
+Cambodia,6.2,7,7.3,8.3,7.8,6.2,-0.98093,-1.00412,-1.05243,Warning
+Togo,7.4,4.8,7.6,8.3,7.8,7.1,-0.90447,-0.97349,-1.02688,Warning
+Angola,6.1,6.8,9.4,8.6,7.3,7.2,-1.11384,-1.2679,-1.3097,Warning
+Uzbekistan,7.9,7.5,7.6,9,9.2,6,-1.9665,-1.22667,-1.26326,Warning
+Zambia,5,6,8,8,6.7,7.4,-0.10604,-0.26756,-0.30679,Warning
+Lebanon,8.5,8.5,6.2,7.2,6.8,8.5,-0.40498,-0.77569,-0.92407,Warning
+'Equatorial Guinea',7.5,6.6,9.1,9.6,9.4,3.3,-1.96989,-1.34934,-1.59372,Warning
+'Kyrgyz Republic',7.4,8.4,7,8.4,7.6,5.6,-0.53826,-1.10921,-1.16288,Warning
+Swaziland,6,3.6,7.5,8.7,8.3,4.9,-1.26199,-0.45885,-0.41312,Warning
+Djibouti,6.6,6.2,7.3,7.8,7,7.2,-1.47103,-0.77209,-0.54208,Warning
+'Solomon Islands',6.7,6.8,8.3,7.3,5.9,4.9,0.00152,-0.52555,-0.40027,Warning
+Tajikistan,7.4,6.7,6.2,9.1,8.2,5.3,-1.50413,-1.25262,-1.2844,Warning
+'Papua New Guinea',6.6,6.6,9.1,7.1,6.2,5,-0.00446,-0.94754,-0.96152,Warning
+Libya,8.9,7.4,6.7,8.4,9,5.4,-0.9716,-1.33688,-1.48179,Warning
+Georgia,7.9,8,6.3,8.6,6.4,7.5,0.13881,-0.00596,0.46923,Warning
+Comoros,7.5,5.3,6.4,7.4,6.6,4.5,-0.46056,-0.9368,-0.73996,Warning
+Colombia,6.8,7.5,8.1,7.3,7.3,8.3,-0.08128,-0.40589,-0.40521,Warning
+Laos,6.6,6.1,6.1,8.6,8.3,5.8,-0.087348,-0.088084,-0.05873,Warning
+Mozambique,6.5,4.9,8,7,6.4,4.6,-0.25632,-0.81559,-0.60352,Warning
+Philippines,8.7,7.9,6.5,7.6,6.7,6.5,0.00635,-0.40339,-0.38096,Warning
+Madagascar,7,4.9,7.9,7.2,5.9,4.3,-0.76336,-0.91283,-0.75396,Warning
+Bhutan,5.6,7.3,7.5,6,7.3,6.9,-0.15878,0.29032,0.9016,Warning
+Gambia,5.5,3.7,6.8,7.6,8,6.4,-0.087348,-0.088084,-0.05873,Warning
+Senegal,6.2,6.3,6.8,5.9,6.2,7,0.06006,-0.23885,-0.18686,Warning
+Tanzania,5.5,6,6.4,6.2,6.2,6.8,-0.20379,-0.47296,-0.77415,Warning
+China,6.5,8.3,8,8.1,9.4,6.1,-1.63141,-0.52459,-0.35835,Warning
+Bolivia,6.7,7.1,8.9,7.2,6.3,4,-0.06899,-1.04643,-0.58992,Warning
+Fiji,7,7.3,7.4,8.8,7.3,3.8,-0.90959,-0.82295,-0.1211,Warning
+'Israel and West Bank',7.1,9.8,7.5,6.7,7.6,7.4,-0.087348,-0.088084,-0.05873,Warning
+Guatemala,7,7.3,8.1,6.9,6.6,6,-0.36654,-1.08348,-0.62266,Warning
+Lesotho,5.2,4.7,6.7,6,5.4,4.9,0.12027,-0.20198,0.2756,Warning
+Nicaragua,5.6,5.9,7.9,7.5,5.4,4.8,-0.45765,-0.67472,-0.73594,Warning
+Algeria,7.4,7.8,6.2,7.4,7.7,7,-0.89335,-0.68937,-0.47348,Warning
+Ecuador,6.7,7.2,7.4,7.2,4.9,5.7,-0.25272,-0.96827,-0.57095,Warning
+Honduras,6.8,5.8,8.1,6.9,6.3,3.9,-0.47494,-1.16466,-0.94549,Warning
+Azerbaijan,6.9,6.9,6.1,8.2,7.6,7.9,-1.40277,-0.72386,-0.96678,Warning
+Indonesia,6.8,7.3,6.9,6.4,6.5,6,0.03612,-0.53077,-0.61382,Warning
+Benin,5.8,3.6,7.2,6,5.1,6.5,0.1555,-0.56867,-0.74411,Warning
+India,7.8,8.2,8.1,5.2,5.9,5.2,0.43278,-0.05732,-0.51744,Warning
+Russia,8.5,8.2,7,8.1,8.6,5.3,-0.087348,-0.088084,-0.05873,Warning
+Belarus,6.3,6.8,5.7,9,8.3,3.6,-1.54443,-0.90092,-0.47123,Warning
+Turkmenistan,7.1,6.7,6.5,9.3,8.7,3.9,-2.21641,-1.38667,-1.40811,Warning
+'Bosnia and Herzegovina',6.4,7.7,6.2,6.7,6.4,6.8,-0.11646,-0.15157,-0.23859,Warning
+Moldova,7.2,6,5.9,6.9,6,5,-0.07132,-0.37213,-0.75464,Warning
+Tunisia,7.2,7.8,6,7.9,8.4,4.2,-0.08443,-0.18925,-0.06704,Warning
+Turkey,7.9,9,6.8,5.9,5.5,7.4,-0.25133,0.06696,0.09225,Warning
+Jordan,5.8,7.1,6.5,6.5,7.4,7.8,-0.80675,0.39297,0.06791,Warning
+Maldives,5.8,4.9,4.4,8.3,7.6,5.3,-0.45963,-0.74662,-0.74778,Warning
+Venezuela,6.5,6.4,6.9,7.6,7.7,4.8,-0.087348,-0.088084,-0.05873,Warning
+Thailand,7.8,8.1,6.4,6.2,7.3,6.4,-0.42993,-0.12053,-0.34356,Warning
+'Sao Tome and Principe',5.8,4.8,6.3,6.6,4.3,4.3,-0.087348,-0.088084,-0.05873,Warning
+Serbia,6.5,8,5.9,6.3,5.5,6.6,0.28549,-0.32611,-0.30093,Warning
+Morocco,6.3,6.5,6.9,6.7,6.6,5.9,-0.69858,-0.24795,-0.37111,Warning
+'Cape Verde',5.7,4.2,6.9,6.3,5.1,4.1,-0.087348,-0.088084,-0.05873,Warning
+'Dominican Republic',5.2,6.1,6.9,5.4,5.7,5.5,0.11537,-0.53239,-0.87459,Warning
+'El Salvador',6.4,5.7,7,5.9,6.1,5.5,-0.01309,-0.61906,-0.3539,Warning
+Mexico,7.9,6.1,7.2,6.1,6.3,4,0.10839,-0.54449,-0.51201,Warning
+Vietnam,5.4,5.7,5.8,7.8,7.5,4.7,-1.3664,-0.5148,-0.47827,Warning
+Gabon,5.4,3.3,7.3,7.6,6.8,5.6,-0.86337,-0.53985,-0.65776,Warning
+Micronesia,5.4,4.2,8,6.3,3.1,3.1,-0.087348,-0.088084,-0.05873,Warning
+Cuba,6.3,4.8,5.9,6.5,7.5,5.3,-1.47867,-0.69726,0.12016,Warning
+'Saudi Arabia',7.2,7.4,6.4,7.8,8.9,5.2,-1.87641,0.15721,-0.02046,Warning
+Peru,7,7,7.8,7.1,5,4.7,0.08479,-0.56597,-0.42349,Warning
+Paraguay,6.1,6.5,8.6,7.9,6.1,2.4,-0.10494,-0.80814,-1.03792,Warning
+Armenia,5.3,5.7,5.6,6.6,6.8,7,-0.58803,-0.34421,-0.53195,Warning
+Suriname,5.8,6.1,7,6.1,5.4,3,0.35705,-0.04516,-0.27539,Warning
+Guyana,5.8,5.9,6.8,6.2,4.4,3.8,0.02123,-0.5302,-0.65084,Warning
+Namibia,4.9,5.3,8.7,4.1,4.9,5.6,0.40029,0.26696,0.32649,Warning
+Kazakhstan,6.4,6.2,5.3,7.8,7.1,3.8,-1.2426,-0.6916,-0.929,Warning
+Ghana,3.8,4.9,6.5,5.1,4.7,5.5,0.43885,0.14914,-0.09662,Warning
+Samoa,5.5,4.8,6,6,4.5,2.5,0.40244,0.68329,0.14521,Warning
+Macedonia,6,7.8,6.2,6.1,4.3,5.2,-0.087348,-0.088084,-0.05873,Warning
+'South Africa',5.1,5.7,8,5.3,4.2,6.5,0.6007,0.15815,-0.07005,Warning
+Belize,5.5,4.4,6.6,6,4.1,4.9,0.71144,-0.46705,-0.09693,Warning
+Cyprus,5,7.3,7,5.5,3.3,4.4,0.98082,1.03658,1.24576,Warning
+Malaysia,6,6.1,5.9,6.2,7.1,4.6,-0.33968,0.43576,0.35018,Warning
+Ukraine,4.4,5.9,5.3,7.8,5.7,3.2,-0.3154,-0.80448,-1.13152,Stable
+Jamaica,6.3,4,5.9,6.1,5,3.4,0.54341,-0.35003,-0.27538,Stable
+Albania,5.5,4.8,4.8,7,6,3.1,0.04889,-0.51802,-0.6986,Stable
+Grenada,5.3,3.9,5.9,6.2,3.7,3.2,0.77025,0.13337,0.41985,Stable
+Botswana,3.5,4.8,7.5,4.4,4.4,5.8,0.48937,0.5961,0.92363,Stable
+Seychelles,6.4,4.8,6.6,6.3,5.2,3.3,0.0201,0.07171,0.44197,Stable
+'Brunei Darussalam',5.6,6.2,7.8,7.4,6.9,3.3,-0.50507,0.59461,0.64609,Stable
+Bahrain,6.1,7.3,5.7,7.6,7.5,2.5,-1.31746,0.33108,0.43309,Stable
+'Trinidad and Tobago',5.7,4.4,6.1,5.6,5.2,3,0.48229,-0.16849,-0.21662,Stable
+Brazil,5.9,5.9,8.3,5.3,5.3,3.6,0.41743,-0.08018,-0.08471,Stable
+Kuwait,4.4,4.6,5.3,7.6,6.8,3.8,-0.65761,0.36563,-0.18834,Stable
+'Antigua and Barbuda',4.9,4.1,5.6,5.8,4.4,3,0.61896,0.83781,1.2608,Stable
+Mongolia,4.4,3.7,6.3,5.3,5.4,2.2,0.10896,-0.37138,-0.47923,Stable
+Romania,4.1,6.3,5.3,6.4,3.9,2.7,0.31152,0.12502,-0.18798,Stable
+Panama,5.1,5,7.9,4.7,4.4,3.7,0.42427,-0.21604,-0.34582,Stable
+Bulgaria,4.7,4.6,5.1,4.8,3.7,3.1,0.33727,-0.10241,-0.26729,Stable
+Bahamas,4.3,4.4,5.6,4.9,2.8,2.8,-0.087348,-0.088084,-0.05873,Stable
+Montenegro,4.6,6.5,3.5,4.2,4.4,4.5,0.17829,0.04548,-0.25124,Stable
+Croatia,4.8,5.3,4.4,3.9,4.7,5.5,0.51374,0.29165,0.12422,Stable
+Oman,5.3,2.7,3.6,6.1,7.5,2,-1.03864,0.49202,0.1595,Stable
+Barbados,4.2,4.4,5.7,3.6,2.5,2.7,1.13736,1.04618,1.61943,Stable
+Greece,3.9,4.8,4.3,5.4,3,2,0.68724,0.46502,-0.04531,Stable
+'Costa Rica',2.5,4.1,6.1,3.5,2.4,4.1,1.07848,0.55167,0.6259,Stable
+Latvia,3.3,5.4,4.9,4.5,3.2,3.3,0.77042,0.76785,0.32842,Stable
+Hungary,2.3,4.1,4.9,5.9,3.4,2.9,0.73719,0.58269,0.3216,Stable
+'United Arab Emirates',2.9,4.3,4.8,6.5,6.4,2.5,-1.01948,0.61902,1.28084,Stable
+Qatar,2.5,4.9,4.8,5.9,5.6,2.1,-0.97837,0.95852,1.11086,Stable
+Argentina,3,5,6,4.4,4.1,2,0.27699,-0.70768,-0.43228,Stable
+Estonia,2.9,5.9,4.3,3.8,2.4,3.3,1.11685,1.19848,1.18876,Stable
+'Slovak Republic',2.3,5,4.6,4.3,3,2,0.95955,0.47855,0.08315,Stable
+Italy,5,4.7,3.6,4.7,2.9,3.3,0.95422,0.4029,0.05164,Stable
+Mauritius,3.3,3.5,4.8,4.1,3.5,2.2,0.92868,0.95007,0.29263,Stable
+Spain,4.1,5.8,4.1,3.3,2.2,2.3,0.98887,1.02052,0.90309,Stable
+Lithuania,2.5,3.7,5.2,3.8,2.9,2.9,0.94002,0.836,0.42603,Stable
+Malta,3.7,4,3.5,4.1,3.3,5.2,1.15657,1.33308,0.9835,Stable
+Chile,2.9,3.5,5.5,3.8,3.5,2.4,1.10629,1.36783,1.54157,Stable
+Poland,2.5,3.8,3.9,3.4,2.9,2.8,0.99814,0.81949,0.59602,Stable
+'Czech Republic',2.1,3.8,3.8,4.1,2.4,2.2,0.98453,1.03977,0.2288,Stable
+Uruguay,3.7,2.8,4.4,1.7,2.3,1.9,1.08526,0.56428,1.37513,Stable
+Japan,1.7,3.8,1.8,2.2,3,3.7,1.10965,1.44371,1.65568,Sustainable
+'South Korea',2.1,3.1,2.9,2.9,2.6,2,-0.087348,-0.088084,-0.05873,Sustainable
+Singapore,1.5,2.7,3.7,3.2,4.9,1.1,0.03677,1.70552,2.07807,Sustainable
+'United States',2.2,4.2,4.8,2.3,3.2,2.3,1.10302,1.55724,1.31326,Sustainable
+'United Kingdom',2.7,5,3.6,1.6,1.8,2.7,1.32904,1.70504,1.69914,Sustainable
+France,2.3,5.9,4.3,2.2,2.4,2.2,1.21925,1.42677,1.32958,Sustainable
+Portugal,1.6,2.3,3.4,2.1,2.7,1.6,1.06693,1.0588,0.95048,Sustainable
+Slovenia,2.5,3.3,4.5,2.8,2.5,1.4,1.0019,1.00079,0.72932,Sustainable
+Belgium,2,4.1,3.8,2.1,1.5,1.6,1.37305,1.43843,1.67388,Sustainable
+Germany,2.2,4.3,3.9,1.4,1.9,3.6,1.40618,1.6495,1.81381,Sustainable
+Austria,1.1,4.3,4,1.5,2,2.4,1.45657,1.85138,1.55079,Sustainable
+Netherlands,1.8,4.1,2.3,1,1,2.4,1.56697,1.83508,2.046,Sustainable
+Canada,1.8,3.1,3.5,1.5,2,2.1,1.45349,1.75598,1.88683,Sustainable
+Australia,1.7,3.6,3.3,1,2.2,2.7,1.43641,1.77864,1.78532,Sustainable
+Ireland,1.8,1.6,2.5,1.9,1.3,1.4,1.31174,1.73172,1.53859,Sustainable
+Iceland,1,1,1.7,1.4,1.3,1.6,1.43957,1.66215,1.91227,Sustainable
+Luxembourg,2.3,2.8,1.5,1.9,1,1.8,1.6311,1.8163,2.12336,Sustainable
+'New Zealand',1.1,3.5,3.4,0.5,1.2,1.1,1.60608,1.87895,2.34176,Sustainable
+Denmark,1.5,3.4,1.6,1,1.7,1.6,1.66627,1.90048,2.4049,Sustainable
+Norway,2.7,3.6,1.5,0.5,1.9,1.9,1.73798,1.98001,2.29447,Sustainable
+Switzerland,1.4,3.5,2.3,0.8,1.7,1.5,1.6281,1.80469,2.13242,Sustainable
+Sweden,2.2,1,1.7,0.5,1.3,2.4,1.65811,1.97288,2.29162,Sustainable
+Finland,1,1.4,1,1,1.1,1.6,1.57371,1.93669,2.20213,Sustainable
